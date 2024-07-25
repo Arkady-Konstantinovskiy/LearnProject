@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.LearnApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
     </style>
 
+    <style name="Theme.LearnApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LearnApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
     <style name="Theme.LearnApplication" parent="Base.Theme.LearnApplication" />
+
+    <style name="button_home"  parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
 </resources>

@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">LearnApplication</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="disclaimer">Постеры предоставлены\nhttps://www.movieposters.com/</string>
+    <string name="app_bar_title">Поисковик</string>
+
+    <string name="b1_text">Меню</string>
+    <string name="b2_text">Избранное</string>
+    <string name="b3_text">Посмотреть позже</string>
+    <string name="b4_text">Подборки</string>
+    <string name="b5_text">Настройки</string>
+
 </resources>
