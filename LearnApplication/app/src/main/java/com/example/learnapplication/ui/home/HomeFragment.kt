@@ -24,24 +24,7 @@ class HomeFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
-//     private fun initButtons(){
-//
-//        binding.button1.setOnClickListener {
-//            Toast.makeText(activity, binding.button1.text, Toast.LENGTH_SHORT).show()
-//        }
-//        binding.button2.setOnClickListener {
-//            Toast.makeText(activity, binding.button2.text, Toast.LENGTH_SHORT).show()
-//        }
-//        binding.button3.setOnClickListener {
-//            Toast.makeText(activity, binding.button3.text, Toast.LENGTH_SHORT).show()
-//        }
-//        binding.button4.setOnClickListener {
-//            Toast.makeText(activity, binding.button4.text, Toast.LENGTH_SHORT).show()
-//        }
-//        binding.button5.setOnClickListener {
-//            Toast.makeText(activity, binding.button5.text, Toast.LENGTH_SHORT).show()
-//        }
-//    }
+
 
 
     override fun onCreateView(
@@ -54,7 +37,7 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-//        initButtons()
+
 
 
 

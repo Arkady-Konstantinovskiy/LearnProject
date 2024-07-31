@@ -1,8 +1,5 @@
 package com.example.learnapplication
 
-import android.app.UiModeManager.MODE_NIGHT_AUTO
-import android.app.UiModeManager.MODE_NIGHT_NO
-import android.content.res.Resources.Theme
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -20,7 +17,7 @@ import com.example.learnapplication.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var appBarConfiguration: AppBarConfiguration
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initNavigation()
-//        setSupportActionBar(binding.appBarMain.topAppBar)
+
 
 
 
@@ -75,23 +72,5 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-//        binding.bottomNavigation.setOnNavigationItemSelectedListener {
-//
-//            when (it.itemId) {
-//                R.id.favorites -> {
-//                    Toast.makeText(this, "Избранное", Toast.LENGTH_SHORT).show()
-//                    true
-//                }
-//                R.id.watch_later -> {
-//                    Toast.makeText(this, "Посмотреть похже", Toast.LENGTH_SHORT).show()
-//                    true
-//                }
-//                R.id.selections -> {
-//                    Toast.makeText(this, "Подборки", Toast.LENGTH_SHORT).show()
-//                    true
-//                }
-//                else -> false
-//            }
-//        }
     }
 }

@@ -72,56 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/top_container" />
 
-<!--    <LinearLayout-->
-<!--        android:id="@+id/screen1"-->
-<!--        android:layout_width="300dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:background="@drawable/corner_backgound"-->
-<!--        android:orientation="vertical"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/disclaimer"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        app:layout_constraintVertical_chainStyle="spread"-->
-<!--        tools:context=".MainActivity">-->
 
-<!--        <Button-->
-<!--            android:id="@+id/button1"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            style="@style/button_home"-->
-<!--            android:text="@string/b1_text" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/button2"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            style="@style/button_home"-->
-<!--            android:text="@string/b2_text" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/button3"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            style="@style/button_home"-->
-<!--            android:text="@string/b3_text" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/button4"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            style="@style/button_home"-->
-<!--            android:text="@string/b4_text" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/button5"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            style="@style/button_home"-->
-<!--            android:text="@string/b5_text" />-->
-
-<!--    </LinearLayout>-->
 
 
 
