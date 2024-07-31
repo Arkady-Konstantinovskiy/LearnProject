@@ -1,19 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.LearnApplication" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.LearnApplication" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
     </style>
-
-    <style name="Theme.LearnApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.LearnApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="Theme.LearnApplication" parent="Base.Theme.LearnApplication" />
 
-    <style name="button_home"  parent="Widget.Material3.Button">
-        <item name="android:backgroundTint">@android:color/transparent</item>
-        <item name="android:background">?selectableItemBackgroundBorderless</item>
-        <item name="android:textSize">15sp</item>
-        <item name="android:textAllCaps">true</item>
+    <style name="Theme.LearnApplication.PopupOverlay" parent="@style/Widget.MaterialComponents.Toolbar.Primary">
+        <item name="menu">@menu/toolbar_menu</item>
+        <item name="title">@string/app_bar_title</item>
+        <item name="navigationIcon">@drawable/ic_round_menu</item>
+
     </style>
+
+    <style name="My_B_nav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.AppCompat</item>
+
+    </style>
+
+<!--    <style name="button_home"  parent="Widget.Material3.Button">-->
+<!--        <item name="android:backgroundTint">@android:color/transparent</item>-->
+<!--        <item name="android:background">?selectableItemBackgroundBorderless</item>-->
+<!--        <item name="android:textSize">15sp</item>-->
+<!--        <item name="android:textAllCaps">true</item>-->
+<!--        -->
+<!--    </style>-->
 </resources>

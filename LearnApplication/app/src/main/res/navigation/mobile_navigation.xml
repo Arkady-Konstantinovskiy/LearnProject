@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_favorites">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_favorites"
         android:name="com.example.learnapplication.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_favorites_title"
         tools:layout="@layout/fragment_home" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_gallery"-->
-<!--        android:name="com.example.LearnApplication.ui.gallery.GalleryFragment"-->
-<!--        android:label="@string/menu_gallery"-->
-<!--        tools:layout="@layout/fragment_gallery" />-->
+    <fragment
+        android:id="@+id/nav_watch_later"
+        android:name="com.example.learnapplication.ui.home.HomeFragment"
+        android:label="@string/menu_watch_later_title"
+        tools:layout="@layout/fragment_home" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_slideshow"-->
-<!--        android:name="com.example.LearnApplication.ui.slideshow.SlideshowFragment"-->
-<!--        android:label="@string/menu_slideshow"-->
-<!--        tools:layout="@layout/fragment_slideshow" />-->
+    <fragment
+        android:id="@+id/nav_selections"
+        android:name="com.example.learnapplication.ui.home.HomeFragment"
+        android:label="@string/menu_selections_title"
+        tools:layout="@layout/fragment_home" />
 </navigation>
