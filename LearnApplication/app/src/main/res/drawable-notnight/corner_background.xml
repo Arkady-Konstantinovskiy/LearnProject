@@ -4,5 +4,10 @@
         android:angle="45"
         android:endColor="@color/colorBackgroundLight"
         android:startColor="@color/colorBackgroundLight2" />
+    <corners
+        android:bottomLeftRadius="25dp"
+        android:bottomRightRadius="25dp" />
+
+
 
 </shape>

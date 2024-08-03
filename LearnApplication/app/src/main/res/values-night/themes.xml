@@ -5,6 +5,7 @@
         <item name="android:textColorPrimary">@color/light_grey</item>
         <item name="colorSurface">@color/colorSurfaceNight</item>
         <item name="colorOnSurface">@color/light_grey</item>
+        <item name="backgroundColor">@color/black</item>
 
     </style>
 

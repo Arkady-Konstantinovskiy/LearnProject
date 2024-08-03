@@ -3,7 +3,7 @@
 
     <string name="menu_home">Home</string>
 
-    <string name="disclaimer">Постеры предоставлены\nhttps://www.movieposters.com/</string>
+    <string name="disclaimer">Постеры предоставлены\nhttps://www.movieposters.com/\n</string>
     <string name="app_bar_title">Поиск</string>
 
     <string name="b1_text">Меню</string>
