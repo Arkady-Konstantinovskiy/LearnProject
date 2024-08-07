@@ -11,18 +11,18 @@
 
     <style name="Theme.LearnApplication" parent="Base.Theme.LearnApplication" />
 
-    <style name="Theme.LearnApplication.PopupOverlay" parent="@style/Widget.MaterialComponents.Toolbar.Primary">
-        <item name="menu">@menu/toolbar_menu</item>
-        <item name="title">@string/app_bar_title</item>
-        <item name="navigationIcon">@drawable/ic_round_menu</item>
+<!--    <style name="Theme.LearnApplication.PopupOverlay" parent="@style/Widget.MaterialComponents.Toolbar.Primary">-->
+<!--        <item name="menu">@menu/toolbar_menu</item>-->
+<!--        <item name="title">@string/app_bar_title</item>-->
+<!--        <item name="navigationIcon">@drawable/ic_round_menu</item>-->
 
-    </style>
+<!--    </style>-->
 
-    <style name="My_B_nav" parent="Widget.MaterialComponents.BottomNavigationView">
-        <item name="itemTextAppearanceActive">@style/TextAppearance.AppCompat</item>
+<!--    <style name="my_b_nav" parent="Widget.MaterialComponents.BottomNavigationView">-->
+<!--        <item name="itemTextAppearanceActive">@style/TextAppearance.AppCompat</item>-->
 
 
-    </style>
+<!--    </style>-->
 
     <!--    <style name="button_home"  parent="Widget.Material3.Button">-->
     <!--        <item name="android:backgroundTint">@android:color/transparent</item>-->

@@ -18,9 +18,18 @@
 
     </style>
 
-    <style name="My_B_nav" parent="Widget.MaterialComponents.BottomNavigationView">
+    <style name="my_b_nav" parent="Widget.MaterialComponents.BottomNavigationView">
         <item name="itemTextAppearanceActive">@style/TextAppearance.AppCompat</item>
 
+    </style>
+    
+    <style name="bottom_poster_clickable">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">225dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:stateListAnimator">@animator/p_press_anim</item>
     </style>
 
 <!--    <style name="button_home"  parent="Widget.Material3.Button">-->
