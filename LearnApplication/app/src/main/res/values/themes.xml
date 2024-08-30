@@ -1,11 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.LearnApplication" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="Base.Theme.LearnApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
         <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColor">@color/dark_grey</item>
         <item name="colorSurface">@color/colorSurface</item>
         <item name="colorOnSurface">@color/colorOnSurface</item>
         <item name="backgroundColor">@color/white</item>
+        <item name="elevation">1dp</item>
 
     </style>
 
@@ -22,7 +25,7 @@
         <item name="itemTextAppearanceActive">@style/TextAppearance.AppCompat</item>
 
     </style>
-    
+
     <style name="bottom_poster_clickable">
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">225dp</item>
@@ -30,7 +33,10 @@
         <item name="cardCornerRadius">15dp</item>
         <item name="android:clickable">true</item>
         <item name="android:stateListAnimator">@animator/p_press_anim</item>
+
     </style>
+
+
 
 <!--    <style name="button_home"  parent="Widget.Material3.Button">-->
 <!--        <item name="android:backgroundTint">@android:color/transparent</item>-->

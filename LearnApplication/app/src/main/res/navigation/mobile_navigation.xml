@@ -9,7 +9,11 @@
         android:id="@+id/nav_favorites"
         android:name="com.example.learnapplication.ui.home.HomeFragment"
         android:label="@string/menu_favorites_title"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_favorites_to_nav_details"
+            app:destination="@id/nav_details" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_watch_later"
@@ -22,4 +26,10 @@
         android:name="com.example.learnapplication.ui.home.HomeFragment"
         android:label="@string/menu_selections_title"
         tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.learnapplication.ui.details.DetailsFragment"
+        tools:layout="@layout/fragment_details" />
+
 </navigation>

@@ -1,11 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.LearnApplication" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Customize your light theme here. -->
+    <style name="Base.Theme.LearnApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your night theme here. -->
         <item name="colorPrimary">@color/colorPrimaryNight</item>
-        <item name="android:textColorPrimary">@color/light_grey</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/light_grey</item>
         <item name="colorSurface">@color/colorSurfaceNight</item>
         <item name="colorOnSurface">@color/light_grey</item>
         <item name="backgroundColor">@color/black</item>
+        <item name="elevation">0dp</item>
 
     </style>
 
@@ -24,11 +27,4 @@
 
 <!--    </style>-->
 
-    <!--    <style name="button_home"  parent="Widget.Material3.Button">-->
-    <!--        <item name="android:backgroundTint">@android:color/transparent</item>-->
-    <!--        <item name="android:background">?selectableItemBackgroundBorderless</item>-->
-    <!--        <item name="android:textSize">15sp</item>-->
-    <!--        <item name="android:textAllCaps">true</item>-->
-    <!--        -->
-    <!--    </style>-->
 </resources>

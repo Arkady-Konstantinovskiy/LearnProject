@@ -71,7 +71,7 @@
             android:autoLink="web"
             android:linksClickable="true"
             android:text="@string/disclaimer"
-            android:textColor="?android:attr/textColorPrimary"
+            android:textColor="?android:attr/textColor"
             android:textColorLink="@android:color/holo_blue_dark"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -80,71 +80,82 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycler"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        tools:listitem="@layout/film_item"
+
         app:layout_constraintTop_toBottomOf="@+id/top_holder"
         app:layout_constraintBottom_toBottomOf="parent"
-        >
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
-        android:columnCount="2"
-        android:layoutAnimation="@anim/bottom_holder_anim"
-        android:orientation="horizontal"
-        android:paddingBottom="16dp">
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/p_5"
-            style="@style/bottom_poster_clickable">
+<!--    <ScrollView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/top_holder"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        >-->
+<!--    <GridLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:columnCount="2"-->
+<!--        android:layoutAnimation="@anim/bottom_holder_anim"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingBottom="16dp">-->
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/p_5" />
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/p_5"-->
+<!--            style="@style/bottom_poster_clickable">-->
 
-        </androidx.cardview.widget.CardView>
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/p_5" />-->
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/p_6"
-            style="@style/bottom_poster_clickable">
+<!--        </androidx.cardview.widget.CardView>-->
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/p_6" />
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/p_6"-->
+<!--            style="@style/bottom_poster_clickable">-->
 
-        </androidx.cardview.widget.CardView>
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/p_6" />-->
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/p_7"
-            style="@style/bottom_poster_clickable">
+<!--        </androidx.cardview.widget.CardView>-->
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/p_9" />
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/p_7"-->
+<!--            style="@style/bottom_poster_clickable">-->
 
-        </androidx.cardview.widget.CardView>
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/p_9" />-->
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/p_8"
-            style="@style/bottom_poster_clickable">
+<!--        </androidx.cardview.widget.CardView>-->
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/p_10" />
-        </androidx.cardview.widget.CardView>
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/p_8"-->
+<!--            style="@style/bottom_poster_clickable">-->
 
-    </GridLayout>
-    </ScrollView>
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/p_10" />-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--    </GridLayout>-->
+<!--    </ScrollView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
