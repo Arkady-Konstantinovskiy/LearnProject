@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="@+id/main"
+        app:layout_constraintStart_toStartOf="@+id/main"
+        app:layout_constraintTop_toBottomOf="@id/app_bar_layout"
+        app:layout_constraintVertical_weight="1.5"
+        tools:context=".MainActivity">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+                        Hello world!                       "
+            android:textColor="@color/grey">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_screen"
+        app:layout_constraintVertical_weight="0.2"
+        tools:context=".MainActivity">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintBottom_toTopOf="@id/main_screen"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="0.2"
+        tools:context=".MainActivity">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
